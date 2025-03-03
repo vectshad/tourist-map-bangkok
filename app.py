@@ -42,7 +42,7 @@ for _, row in df.iterrows():
 
 # Determine map center based on selected place
 if st.session_state["selected_place"] == "🏡 My Airbnb":
-    map_center = [13.7504, 100.5406]  # Airbnb Location
+    map_center = [13.722233,100.525416]  # Airbnb Location
 else:
     selected_row = df[df["name"] == st.session_state["selected_place"]].iloc[0]
     map_center = [selected_row["latitude"], selected_row["longitude"]]
