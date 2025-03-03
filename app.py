@@ -52,7 +52,7 @@ m = folium.Map(location=map_center, zoom_start=14)
 
 # Airbnb marker
 folium.Marker(
-    location=[13.7504, 100.5406],
+    location=[13.722233,100.525416],
     popup="🏡 My Airbnb",
     tooltip="My Airbnb",
     icon=folium.Icon(color="blue", icon="home"),
